@@ -2,7 +2,7 @@
 
 read -p "Enter a number: " number
 
-for(( count=1; count<=$number; count-- ))
+for(( count=1; count<=$number; count++ ))
 do
 
 echo "$count"
